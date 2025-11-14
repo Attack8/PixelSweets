@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pixel_sweets:sweet_27"
+    ]
+  },
+  "criteria": {
+    "has_sweet_27": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixel_sweets:sweet_27"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixel_sweets:sweet_27"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sweet_27",
+      "has_the_recipe"
+    ]
+  ]
+}

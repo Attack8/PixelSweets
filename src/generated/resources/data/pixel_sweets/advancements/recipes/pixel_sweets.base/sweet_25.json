@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pixel_sweets:sweet_25"
+    ]
+  },
+  "criteria": {
+    "has_cocoa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cocoa_beans"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixel_sweets:sweet_25"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cocoa",
+      "has_the_recipe"
+    ]
+  ]
+}

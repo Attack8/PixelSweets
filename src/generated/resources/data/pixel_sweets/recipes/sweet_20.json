@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "AAA",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wheat"
+    },
+    "B": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "pixel_sweets:sweet_20"
+  }
+}

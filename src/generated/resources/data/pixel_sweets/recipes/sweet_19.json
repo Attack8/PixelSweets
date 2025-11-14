@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "AAA",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wheat"
+    },
+    "B": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "item": "pixel_sweets:sweet_19"
+  }
+}

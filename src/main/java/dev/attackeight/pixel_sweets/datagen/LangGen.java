@@ -1,10 +1,9 @@
-package dev.attackeight.pixel_sweets;
+package dev.attackeight.pixel_sweets.datagen;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.internal.Streams;
 import com.google.gson.stream.JsonReader;
-import com.mojang.logging.LogUtils;
 import com.tterrag.registrate.providers.ProviderType;
 import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
