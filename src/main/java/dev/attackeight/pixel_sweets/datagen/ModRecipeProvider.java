@@ -8,6 +8,8 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Consumer;
 
@@ -17,7 +19,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     @Override
-    protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+    protected void buildCraftingRecipes(@NotNull Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
         ShapedRecipeBuilder.shaped(ModItems.SWEET_28.get())
                 .define('A', Items.SWEET_BERRIES)
@@ -81,5 +83,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.HONEY_BOTTLE).build()))
                 .save(pFinishedRecipeConsumer);
 
+    }
+
+    public static void gatherData(GatherDataEvent event) {
+        event.getGenerator().addProvider(new ModRecipeProvider(event.getGenerator()));
     }
 }
