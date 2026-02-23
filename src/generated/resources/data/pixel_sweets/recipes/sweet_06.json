@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "DAB",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "B": {
+      "item": "minecraft:red_dye"
+    },
+    "C": {
+      "item": "minecraft:magenta_dye"
+    },
+    "D": {
+      "item": "minecraft:pink_dye"
+    },
+    "E": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "pixel_sweets:sweet_06"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "CCC",
-    "BAB",
-    "CCC"
+    " A ",
+    " B ",
+    " C "
   ],
   "key": {
     "A": {
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "pixel_sweets:sweet_20"
+    "item": "pixel_sweets:sweet_03"
   }
 }

@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "pixel_sweets:sweet_20"
+      "pixel_sweets:sweet_07"
     ]
   },
   "criteria": {
-    "has_sugar": {
+    "has_wheat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:sugar"
+              "minecraft:wheat"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "pixel_sweets:sweet_20"
+        "recipe": "pixel_sweets:sweet_07"
       }
     }
   },
   "requirements": [
     [
-      "has_sugar",
+      "has_wheat",
       "has_the_recipe"
     ]
   ]

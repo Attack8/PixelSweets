@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "CBC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "B": {
+      "item": "minecraft:cake"
+    },
+    "C": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "pixel_sweets:sweet_00"
+  }
+}

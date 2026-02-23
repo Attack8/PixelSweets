@@ -1,22 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "CCC",
+    " B ",
     "BAB",
-    "CCC"
+    " B "
   ],
   "key": {
     "A": {
-      "item": "minecraft:red_dye"
+      "item": "minecraft:pink_dye"
     },
     "B": {
       "item": "minecraft:sugar"
-    },
-    "C": {
-      "item": "minecraft:wheat"
     }
   },
   "result": {
-    "item": "pixel_sweets:sweet_20"
+    "item": "pixel_sweets:sweet_13"
   }
 }

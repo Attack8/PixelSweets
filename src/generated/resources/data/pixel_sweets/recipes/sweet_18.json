@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:red_dye"
+      "item": "minecraft:pink_dye"
     },
     "B": {
       "item": "minecraft:sugar"
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "pixel_sweets:sweet_20"
+    "item": "pixel_sweets:sweet_18"
   }
 }
